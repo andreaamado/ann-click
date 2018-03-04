@@ -1,0 +1,51 @@
+.ajax-ann-click {
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 5px !important;
+    padding: 0 !important;
+}
+
+.ann-click-btn {
+    /* position: absolute; */
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+.ann-click-btn img {
+    vertical-align: initial;
+}
+
+.ajax-loading {
+    display: none;
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    top: 0;
+    left: 0;
+}
+
+#annClickPhone, #annClickEmail {
+    display: none;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 1em;
+}
+
+.ui-dialog-buttonpane {
+    padding: .5em .4em !important;
+    margin: 0 !important;
+}
+.ui-dialog-buttonset {
+    float: none !important;
+    text-align: center !important;
+}
+.ui-dialog-buttonset > .ui-button {
+    margin: auto !important;
+    width: fit-content !important;
+    font-size: 0.8em !important;
+    text-align: center !important;
+}
